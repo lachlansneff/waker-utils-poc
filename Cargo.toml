@@ -1,0 +1,13 @@
+
+[workspace]
+members = [
+    "waker-trait",
+    "waker-util",
+]
+exclude = [
+    "embassy",
+    "embassy-waker",
+    "a-driver",
+    "a-binary",
+    "rtic",
+]
